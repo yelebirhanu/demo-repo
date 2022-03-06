@@ -1,1 +1,8 @@
-git checkout
+git checkout main
+git fetch -p origin
+git merge origin main
+git checkout demo-repo
+git merge demo-repo
+git commit -m "feature branch updated"
+git status
+
